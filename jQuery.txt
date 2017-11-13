@@ -1,1 +1,4 @@
-<script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+<script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>//jQuery引入
+当页面加载完成后，在页面中以居中的方式显示“您好！通过慕课网学习 jQuery 才是最佳的途径”字样：$(document).ready(function() {
+               $("div").html("您好！通过慕课网学习jQuery才是最佳的途径。")
+            });
